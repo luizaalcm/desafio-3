@@ -1,0 +1,363 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'BalooDa' ;
+    src: url(./fontes/BalooDa-Regular.ttf);
+}
+
+
+:root{
+    --cor0:white;
+    --cor1: #CD114E;
+    --cor2: #191234;
+    --cor3: black;
+}
+
+*{
+    padding: 0px;
+    margin: 0%;
+}
+body{
+    overflow-x: hidden;
+    background-color: var(--cor0);
+}
+header{
+    background-color: var(--cor1);
+    color: var(--cor0);
+    padding: 20px;
+    font-family: 'BalooDa', sans-serif;
+    height: 500px;
+}
+header > nav{
+    position: absolute;
+    top: 7%;
+    right: 0;
+    padding: 10px;
+    padding-right: 120px;
+    
+}
+header > nav > a{
+    color: var(--cor0);
+    text-decoration: none;
+    padding: 20px;
+ 
+  
+}
+header > h1{
+font-size: 58px;
+line-height: 65px;
+position: relative;
+top: 120px;
+left: 100px;
+}
+
+header > p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    position: relative;
+    top: 150px;
+    left: 100px;
+}
+
+ header > button{
+    background-color: var(--cor0);
+    height: 44px;
+    width: 150px;
+    border: none;
+    border-radius: 4px;
+    font: weight 500px;
+    font-size: larger;
+    position: relative;
+    top: -280px;
+    left: 100px;
+}
+header > button > a{
+    text-decoration: none;
+    color: var(--cor3);
+
+}
+header > img {
+    position: relative;
+  
+    top: -100px;
+    left: 500px;
+    width: 500px;
+}
+
+div.a {
+    background-color: white;
+    color: var(--cor3);
+    margin-top: 300px;
+    position: relative;
+    font-family: 'BalooDa',Arial, Helvetica, sans-serif;
+    box-shadow: 10px 8px 5px rgba(0, 0, 0, 0.116);
+    width: 1000px;
+    height: 200px;
+    text-align: center;
+    margin-left: 180px;
+}
+div.number{
+    color: var(--cor1);
+}
+main{
+text-align: center;
+padding: 50px;
+}
+main > p.services {
+    color: var(--cor1);
+    font-family: 'BalooDa', Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+
+}
+main > h2.what{
+    font-family: 'BalooDa', Arial, Helvetica, sans-serif;
+    font-size: 2em;
+}
+
+main > p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+section.search{
+padding: 20px;
+box-shadow: 10px 8px 5px rgba(0, 0, 0, 0.116);
+position: relative;
+width: 1000px;
+height: 400px;
+background-color: var(--cor0);
+margin-top: 300px;
+margin-left: 180px;
+}
+
+section.search > img {
+    width: 350px;
+    position: relative;
+    left: 70px;
+    top: 45px;
+}
+
+section.search > h2{
+    font-family:'BalooDa', Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 450px;
+    top: -320px;
+    font-size: 2.5em;
+}
+
+section.search > p{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: -320px;
+    left: 450px ;
+}
+
+section.search > button {
+    background-color: var(--cor1);
+    height: 44px;
+    width: 150px;
+    border: none;
+    border-radius: 4px;
+    font: weight 500px;
+    font-size: larger;
+    position: relative;
+    top: -280px;
+    left: 450px;
+}
+
+section.search > button > a {
+    text-decoration: none;
+    color: var(--cor0);
+
+}
+
+section.about{
+    padding: 20px;
+}
+section.about > p.us {
+ color: var(--cor1); 
+ font-family:'BalooDa', Arial, Helvetica, sans-serif ;  
+ position: relative;
+ top: 70px;
+ left: 650px ;
+}
+
+section.about > h2{
+    font-family:'BalooDa', Arial, Helvetica, sans-serif ;
+    position: relative;
+    top: 80px;
+    left: 650px;
+}
+
+section.about > p{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 100px;
+    left: 650px;
+}
+
+section.about > button{
+    background-color: var(--cor1);
+    height: 44px;
+    width: 150px;
+    border: none;
+    border-radius: 4px;
+    font: weight 500px;
+    font-size: larger;
+    position: relative;
+    top: 130px;
+    left: 650px;
+}
+
+section.about > button > a{
+    text-decoration: none;
+    color: var(--cor0);
+
+}
+
+
+div#numbers > p{
+    font-size:1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    position: relative;
+
+
+}
+div#numbers > div#org{
+text-align: center;
+}
+
+div#numbers > div#org > p#number1  {
+    color: var(--cor1);
+    font-family:'BalooDa', Arial, Helvetica, sans-serif;
+    font-size: 4.5em;
+    position: relative;
+    
+    top: 200px;
+    text-align: center;
+}
+div#numbers > div#org > p#number2  {
+    color: var(--cor1);
+    font-family:'BalooDa', Arial, Helvetica, sans-serif;
+    font-size: 4.5em;
+    position: relative;
+  
+    top: 60px;
+    text-align: center;
+}
+div#numbers > div#org > p#number3  {
+    color: var(--cor1);
+    font-family:'BalooDa', Arial, Helvetica, sans-serif;
+    font-size: 4.5em;
+    position: relative;
+    
+    top: -80px;
+    text-align: center;
+}
+div#numbers > div#org > p#number4  {
+    color: var(--cor1);
+    font-family:'BalooDa', Arial, Helvetica, sans-serif;
+    font-size: 4.5em;
+    position: relative;
+    
+    top: -220px;
+    text-align: center;
+}
+
+div#why{
+
+}
+div#why > p#choost{
+    color: var(--cor1);
+}
+div#why > h2{
+    color: var(--cor3);
+}
+
+div#why > p{
+    
+}
+
+div#why > button{
+    background-color: var(--cor1);
+    height: 44px;
+    width: 150px;
+    border: none;
+    border-radius: 4px;
+    font: weight 500px;
+    font-size: larger;
+    position: relative;
+}
+div#why > button > a {
+    text-decoration: none;
+    color: var(--cor0);
+}
+
+div#what{
+
+}
+
+div#what > p#testimonial{
+    color: var(--cor1);
+}
+
+div#what > h2{
+    font-family:'BalooDa', Arial, Helvetica, sans-serif;
+}
+
+div#what > p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div#mapa{
+
+}
+
+div#mapa > img{
+
+}
+
+div > p {
+text-align: center;
+}
+div > p > keya {
+color: var(--cor1);
+}
+
+div#blog{
+
+}
+div#blog > p#blog2{
+    color: var(--cor1);
+}
+div#blog > h2{
+
+}
+div#blog > p{
+
+}
+div#project{
+    background-color: var(--cor0);
+    width: 500px;
+}
+
+div#project > button{
+    background-color: var(--cor1);
+    height: 44px;
+    width: 150px;
+    border: none;
+    border-radius: 4px;
+    font: weight 500px;
+    font-size: larger;
+    position: relative;
+
+}
+
+div#project > button > a{
+text-decoration: none;
+color: var(--cor0);
+}
+
+footer{
+    background-color: var(--cor2);
+}
