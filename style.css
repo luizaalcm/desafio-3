@@ -21,6 +21,14 @@ body{
     overflow-x: hidden;
     background-color: var(--cor0);
 }
+
+
+
+
+
+
+
+
 header{
     background-color: var(--cor1);
     color: var(--cor0);
@@ -28,6 +36,7 @@ header{
     font-family: 'BalooDa', sans-serif;
     height: 500px;
 }
+
 header > nav{
     position: absolute;
     top: 7%;
@@ -84,21 +93,51 @@ header > img {
     width: 500px;
 }
 
+
+
+
+
+
+
 div.a {
     background-color: white;
     color: var(--cor3);
     margin-top: 300px;
     position: relative;
     font-family: 'BalooDa',Arial, Helvetica, sans-serif;
-    box-shadow: 10px 8px 5px rgba(0, 0, 0, 0.116);
+    box-shadow: 8px 7px 5px rgba(0, 0, 0, 0.060);
     width: 1000px;
     height: 200px;
     text-align: center;
-    margin-left: 180px;
+    left: 170px;
 }
-div.number{
-    color: var(--cor1);
+
+div.a > ul {
+    
+    position: relative;
+    vertical-align: center;
+    display: flex;
+    left: 170px;
+    top: 60px;
+
+  
+    
 }
+div.a > ul > li{
+    list-style: none;
+position: relative;
+}
+
+div.a > p{
+    position: relative;
+    top: 35px;
+}
+
+
+
+
+
+
 main{
 text-align: center;
 padding: 50px;
@@ -118,6 +157,13 @@ main > p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
 }
+
+
+
+
+
+
+
 section.search{
 padding: 20px;
 box-shadow: 10px 8px 5px rgba(0, 0, 0, 0.116);
@@ -170,28 +216,41 @@ section.search > button > a {
 
 }
 
+
+
+
+
+
+
 section.about{
     padding: 20px;
+}
+
+section.about > img{
+    width: 400px;
+    position: relative;
+    top: 70px;
+    left: 200px;
 }
 section.about > p.us {
  color: var(--cor1); 
  font-family:'BalooDa', Arial, Helvetica, sans-serif ;  
  position: relative;
- top: 70px;
+ top: -470px;
  left: 650px ;
 }
 
 section.about > h2{
     font-family:'BalooDa', Arial, Helvetica, sans-serif ;
     position: relative;
-    top: 80px;
+    top: -460px;
     left: 650px;
 }
 
 section.about > p{
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
-    top: 100px;
+    top: -440px;
     left: 650px;
 }
 
@@ -204,7 +263,7 @@ section.about > button{
     font: weight 500px;
     font-size: larger;
     position: relative;
-    top: 130px;
+    top: -400px;
     left: 650px;
 }
 
@@ -215,67 +274,97 @@ section.about > button > a{
 }
 
 
-div#numbers > p{
-    font-size:1em;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
+
+
+
+
+
+div#numbers{
+    box-shadow:  10px 8px 5px rgba(0, 0, 0, 0.116);
     position: relative;
-
-
+    background-color: white;
+    position: relative;
+    width: 1000px;
+    height: 200px;
+    text-align: center;
+    left: 170px;
+    top: -170px;
 }
-div#numbers > div#org{
+
+div#numbers > ul.a{
 text-align: center;
+position: relative;
+vertical-align: center;
+display: flex;
+top:-210px;
+left:180px;
+
 }
 
-div#numbers > div#org > p#number1  {
+div#numbers > ul.a > li  {
     color: var(--cor1);
     font-family:'BalooDa', Arial, Helvetica, sans-serif;
     font-size: 4.5em;
     position: relative;
-    
+    list-style: none;
     top: 200px;
-    text-align: center;
+    padding: 30px;
 }
-div#numbers > div#org > p#number2  {
-    color: var(--cor1);
-    font-family:'BalooDa', Arial, Helvetica, sans-serif;
-    font-size: 4.5em;
-    position: relative;
-  
-    top: 60px;
+
+div#numbers > ul.h {
     text-align: center;
-}
-div#numbers > div#org > p#number3  {
-    color: var(--cor1);
-    font-family:'BalooDa', Arial, Helvetica, sans-serif;
-    font-size: 4.5em;
     position: relative;
+    vertical-align: center;
+    display: flex;
+    top:-280px;
+    left:175px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-bottom: 150px;
     
-    top: -80px;
-    text-align: center;
 }
-div#numbers > div#org > p#number4  {
-    color: var(--cor1);
-    font-family:'BalooDa', Arial, Helvetica, sans-serif;
-    font-size: 4.5em;
+div#numbers > ul.h> li {
     position: relative;
-    
-    top: -220px;
-    text-align: center;
+    list-style: none;
+    top: 200px;
+    padding: 35px;
 }
+
+
+
+
+
+
+
 
 div#why{
-
+padding: 0px;
 }
 div#why > p#choost{
     color: var(--cor1);
+    font-family:'BalooDa', Arial, Helvetica, sans-serif ;
+    position: relative;
+    left: 250px;
+    top: -70px;
 }
 div#why > h2{
     color: var(--cor3);
+    font-family: 'BalooDa', Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 250px;
+    top: -50px;
 }
 
 div#why > p{
-    
+    position:relative;
+    left: 250px;
+    top: -40px;
+}
+
+div#why > ul{
+   position: relative;
+   left:250px; 
+   top: -35px;
 }
 
 div#why > button{
@@ -287,11 +376,20 @@ div#why > button{
     font: weight 500px;
     font-size: larger;
     position: relative;
+    left: 250px;
+    top: -10px;
 }
 div#why > button > a {
     text-decoration: none;
     color: var(--cor0);
 }
+
+
+
+
+
+
+
 
 div#what{
 
@@ -299,46 +397,98 @@ div#what{
 
 div#what > p#testimonial{
     color: var(--cor1);
+    font-family:'BalooDa', Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-bottom: 30px;
 }
 
 div#what > h2{
     font-family:'BalooDa', Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
 div#what > p{
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-bottom: 30px;
 }
+
+
+
+
+
+
+
 
 div#mapa{
 
 }
 
-div#mapa > img{
-
+div.mapa > img{
+position: relative;
+left: 23%;
+width: 700px;
+}
+div.mapa > p.texto{
+    font-family:'BalooDa', Arial, Helvetica, sans-serif ;
 }
 
-div > p {
+div.mapa > p {
 text-align: center;
+font-family:Arial, Helvetica, sans-serif;
 }
-div > p > keya {
+div.mapa > p.keya {
 color: var(--cor1);
+font-family:'BalooDa', Arial, Helvetica, sans-serif;
 }
+
+
+
+
+
+
+
+
+
 
 div#blog{
+    padding: 50px;
 
 }
 div#blog > p#blog2{
     color: var(--cor1);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    text-align: center;
 }
 div#blog > h2{
-
+color: var(--cor3);
+font-family:'BalooDa', Arial, Helvetica, sans-serif ;
+text-align: center;
 }
 div#blog > p{
-
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
 }
+
+
+
+
+
+
+
+
+
 div#project{
     background-color: var(--cor0);
+    font-family: 'BalooDa', Arial, Helvetica, sans-serif;
     width: 500px;
+    position: relative;
+    left: 600px;
+    top: 100px;
+}
+div#project > h2{
+    
 }
 
 div#project > button{
@@ -349,7 +499,7 @@ div#project > button{
     border-radius: 4px;
     font: weight 500px;
     font-size: larger;
-    position: relative;
+    position: center;
 
 }
 
@@ -358,6 +508,146 @@ text-decoration: none;
 color: var(--cor0);
 }
 
-footer{
+
+
+
+
+
+
+
+
+div#footer{
     background-color: var(--cor2);
+    color: var(--cor0);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 600px;  
+    margin-top: 50px;
+    position: relative;
+   
+}
+
+div#footer > p{
+    position: relative;
+   left: 150px;
+   top: 250px ;
+}
+
+div#footer > img{
+    position: relative;
+    left: 150px ;
+    top: 220px;
+}
+  
+div#footer > ul.a{
+   position: relative;
+   left: 445px;
+   top: 50px;
+   list-style: none;
+   display: flex;
+   vertical-align: center;
+   font-family: 'BalooDa', Arial, Helvetica, sans-serif;
+   
+   
+   
+    
+}
+div#footer > ul.a > li{
+ padding: 40px;
+ margin: 0px;
+    
+}
+
+div#footer > ul.contact {
+    position: relative;
+    left: 460px;
+    top: 40px;
+}
+
+div#footer > ul.contact > li{
+    list-style: none;
+}
+
+div#footer > ul.feature{
+    position: relative;
+    left: 650px ;
+    top:-90px;
+}
+
+div#footer > ul.feature > li{
+ list-style: none;
+}
+
+div#footer > ul.about {
+ position: relative;
+ left: 825px;
+ top: -190px;
+}
+
+div#footer > ul.about > li{
+ list-style: none;
+}
+
+div#footer > form > input {
+    width: 200px;
+    height: 51.1px;
+    margin: 0px;
+    position: relative;
+    left: 960px;
+    top: -302px;
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+}
+
+div#footer > form > button{
+    width: 50px;
+    height: 51.1px;
+    color: var(--cor0);
+    background-color: var(--cor1);
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    top: -300px;
+    left: 950px;
+    border-radius: 0px 2px 2px 0px;
+    
+}
+
+div#footer >ul#icones{
+    position: relative;
+    top:-200px;
+    left:160px ;
+ display: flex;
+    vertical-align: center;
+  
+}
+
+div#footer > ul#icones > li{
+    list-style: none;
+    position: relative;
+    padding: 12px;
+   
+}
+footer {
+    background-color: var(--cor1);
+    color: var(--cor0);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    font-weight: bold;
+    
+}
+
+footer > p#direitos{
+    position: relative;
+    right: -50px;
+    bottom: 0px;
+    font-size: 15px;
+}
+footer  > p#by {
+    position: relative;
+    left: 1100px;
+    bottom: 15px;
+    font-size: 15px;
+    padding-bottom: 5px;
+    
 }
